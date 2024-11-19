@@ -1,0 +1,75 @@
+/* Configuração geral */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, black, green);
+}
+
+/* Contêiner do álbum */
+.album-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 150px;
+  gap: 10px;
+  max-width: 800px;
+  width: 100%;
+  padding: 10px;
+}
+
+/* Estilo de cada imagem */
+.image-item {
+  background-size: cover;
+  background-position: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Diferentes tamanhos de imagens */
+.image1 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-image: url("https://cms.rhinoshield.app/public/images/ip_page_rick_and_morty_icon_894e334f64.jpg");
+}
+
+.image2 {
+  background-image: url("https://static1.colliderimages.com/wordpress/wp-content/uploads/2022/09/Rick--Morty-Cast-and-Character-Guide-feature.jpg");
+}
+
+.image3 {
+  background-image: url("https://images7.alphacoders.com/655/655645.jpg");
+}
+
+.image4 {
+  grid-column: span 2;
+  background-image: url("https://static1.srcdn.com/wordpress/wp-content/uploads/2024/03/rick-and-morty-evil-morty.jpg");
+}
+
+.image5 {
+  grid-row: span 2;
+  background-image: url("https://tm.ibxk.com.br/2021/07/14/14174618278425.jpg");
+}
+
+.image6 {
+  background-image: url("https://gamefera.com/wp-content/uploads/Temporada-7-de-Rick-and-Morty.webp");
+}
+
+.image7 {
+  background-image: url("https://www.planocritico.com/wp-content/uploads/2022/09/rick-and-morty-6-03-plano-critico.jpg");
+}
+
+.image8 {
+  background-image: url("https://comicbook.com/wp-content/uploads/sites/4/2022/09/e8d841de-4e4a-4a9a-b217-159e5b861964.jpg");
+}
+
+.image9 {
+  grid-column: span 2;
+  background-image: url("https://i.pinimg.com/originals/13/2b/8d/132b8d812f178f7e48836a21bce01196.jpg");
+}
+
+.image10 {
+  background-image: url("https://uploads.jovemnerd.com.br/wp-content/uploads/2021/07/rick-and-morty-summer-5a-temporada.jpg?ims=1210x544/filters:quality(75)");
+}
